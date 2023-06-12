@@ -113,7 +113,7 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import api from "../../http/goodsApi";
+// import api from "../../http/goodsApi";
 const dialogSalesclerksFormVisible = ref(false);
 const addOrEdit = ref(1); // 判断弹窗是新增还是编辑 1 新增 0 编辑；
 const total = ref(0);
